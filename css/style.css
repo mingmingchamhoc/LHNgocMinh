@@ -1,0 +1,152 @@
+.header{
+    padding: 0;
+}
+.header li{
+    margin: 0 20px;
+}
+.container1 h1{
+    font-size: 24px;
+    color:#df4f81;
+}
+.container1 p{
+    font-size: 16px;
+    color:#df4f81;
+}
+.button1 a:hover{
+    color:black;
+}
+.container1{
+padding-top: 150px;
+padding-left: 50px;
+}
+.khac a:hover{
+    color:black;
+}
+.container3{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.section1 h1{
+color: #EAA4BD;
+font-size: 32px;
+margin-left: 230px;
+}
+.section1 a:hover{
+    color:black;
+}
+.container4{
+    width: 1000px;
+    margin: 0 auto;
+}
+.container5{
+    width: 500px;
+    margin-left:30px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.container6 h1{
+    margin-left: 100px;
+}
+.container6{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 800px;
+    background-image: url(../img/8f9821f8f0e6359cf2abc99346196e1b.jpeg);
+    background-size: 474px 606px;
+    background-repeat: no-repeat;
+    margin-left: 800px;
+    margin-top: -400px;
+}
+.container7{
+    width: 500px;
+    margin-left:30px;
+    margin-left: 800px;
+    margin-top: -400px;
+}
+.container8{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 800px;
+    background-image: url(../img/fi.jpeg);
+    background-size: 564px 797px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: -400px;
+}
+/*section4*/
+.container9{
+    width: 1107px;
+    margin: 0 auto;  
+}
+.container10{
+    width: 500px;
+    margin-left:30px;
+    margin-left: 600px;
+    margin-top: -700px;
+}
+.section4{
+    padding:35px 0;
+}
+.card{
+    width: 49%;
+    display:inline-block;
+    overflow:hidden;
+}
+.description-card1{
+    padding: 15px 10px;
+}
+.description-card2{
+    padding: 15px 10px;
+}
+.p{
+margin-top: 15px;
+}
+.card1{
+    margin-top: 20px;
+    width: calc(50%-5px);
+    display:inline-block;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    overflow:hidden;
+    box-shadow: 5px 25px 30px rgb(129, 125, 125);
+    border-radius: 2%;
+}
+.card2{
+    margin-top: 20px;
+    width: calc(50%-5px);
+    display:inline-block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    overflow:hidden;
+    box-shadow: 5px 25px 30px rgb(129, 125, 125);
+    border-radius: 2%;
+}
+.picture1{
+    height:640px;
+    overflow:hidden;
+}
+.picture2{
+    height:640px;
+    overflow:hidden;
+}
+.picture1 img{
+    height: 100%;
+}
+.picture2 img{
+   height: 100%;
+}
+.container11{
+    width: 600px;
+    height: 100px;
+    margin-left:30px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.container11 a:hover{
+    color:black;
+}

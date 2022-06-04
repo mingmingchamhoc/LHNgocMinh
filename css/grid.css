@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: my-font;
+    src: url(../font/DMSerifText-Regular.ttf), url(../font/DMSerifText-Italic.ttf);
+}
+.body{
+    font-family: my-font;
+    font-weight: 400;
+    color: white;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #EAA4BD;
+    height: 55px;
+}
+.list-style-none{
+list-style: none;
+}
+.nav li a{
+    color:white;
+    margin-bottom: 10px;
+    float: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+.justify-between{
+    justify-content:space-between;
+    margin-right: 20px;
+}
+.khac{
+    margin-top: -35px;
+}
+.khac a{
+    margin-left:-20px;
+}
+.khac input{
+    margin-left: 450px;
+}
+.khac button{
+ margin-left: -10px;
+}
+.col-2 button{
+    color:#EAA4BD;
+    margin-right:10px ;
+    border-radius: 35px;
+}
+.col-2 form input{
+    margin-right: 5px;
+}
+.khac input{
+    border-radius: 20px;
+    width: 150px;
+    height: 20px;
+}
+/*header*/
+.container1{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    background-image: url(../img/guitar.JPG);
+    background-size: 1000px;
+}
+.container1 p{
+    margin-left: 50px;
+}
+.box{
+    width: 650px;
+    margin: 0 auto; 
+}
+.btn-md{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 35px;
+    float: center;
+    text-decoration: none ;
+    font-size: 16px;
+}
+.btn-sm{
+    padding: 12px 16px;
+    border: 35px;
+    text-decoration: none ;
+    border-radius: 35px;
+    margin-top: 10px;
+}
+.section1 input{
+    border-radius: 20px;
+    height: 50px;
+    width: 500px;
+    font-size: 16px;
+
+}
+.section1 form{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.btn-sm{
+    padding: 12px 16px;
+    border: 35px;
+    text-decoration: none ;
+    border-radius: 35px;
+    margin-top: 10px;
+}
+.btn-primary{
+    background-color:#EAA4BD ;
+    color: white;
+}
+.btn-dark{
+    background-color:#df4f81 ;
+    color: white; 
+}
+.container1 a{
+    border-radius: 35px;
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 200px;
+}
+/*section2*/
+.container4 h1{
+    margin-left: 400px;
+    margin-top: 60px;
+    color:#EAA4BD;
+}
+.container4 p{
+    margin: 30px auto 100px;
+    color: rgb(90, 88, 88);
+}
+/*section3*/
+.section3 h1{
+    margin-left: 100px;
+    margin-top: 60px;
+    color:#EAA4BD;
+}
+.container7 h1{
+    margin-left: 150px;
+}
+.container5 p{
+    margin-top: 20px;
+    margin-left:30px;
+    color: rgb(90, 88, 88);
+}
+.container7 p{
+    margin-top: 20px;
+    margin-left:30px;
+    color: rgb(90, 88, 88);
+}
+.container10 h1{
+    color:#EAA4BD;   
+}
+.container11 h1{
+    color:#EAA4BD;  
+}
+.btn-lg{
+    padding: 12px 16px;
+    border: 35px;
+    text-decoration: none ;
+    border-radius: 35px;
+    margin-top: 10px;
+}
+.btn-primary{
+    background-color:#EAA4BD ;
+    color: white;
+}
+.btn-dark{
+    background-color:#df4f81 ;
+    color: white; 
+}
+.container11 a{
+    margin-top: 800px;
+    margin-left: 200px;
+}
+.container12{
+    width: 1107px;
+    height:300px;
+    margin: 0px auto;
+    margin-top: 0px;
+    background-color: #686363;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1>[class*="col-"]{
+    padding: 12px;
+}
+.list-style-none{
+    list-style: none;
+}
+.nav1 li a{
+    color:white;
+    margin-bottom: 10px;
+    float: center;
+    margin-right: 100px;
+    margin-left: 65px;
+}
+.container12{
+    width: 1107px;
+    height:100px;
+    margin: 0px auto;
+}  
+.container13{
+    width: 1107px;
+    height:100px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.col-1{
+    width: 8,33%;
+}
+.col-2{
+    width: 16,66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33,33%;
+}
+.col-5{
+    width: 41,66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58%;
+}
+.col-8{
+    width: 66,66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83,33%;
+}
+.col-11{
+    width: 91,66%;
+}
+.col-12{
+    width: 100%;
+}
